@@ -1,0 +1,102 @@
+.home-container {
+  width: 100vw;
+  height: 600px;
+  //   background-color: rgb(237, 237, 213);
+  margin-top: 20px;
+  @include flex-d(row, space-between, start);
+  //   overflow-x: hidden;
+}
+
+.home-container-left {
+  width: 50vw;
+  position: relative;
+}
+
+.home-container-left-top {
+  width: 432px;
+  height: 128px;
+  padding: 5px 10px;
+  background: rgb(255, 255, 255);
+  background-image: radial-gradient(rgb(119, 119, 119) 1px, transparent 0);
+  background-size: 13px 13px;
+  background-position: 0 0, 7px 7px;
+}
+
+.home-container-right {
+  width: 50vw;
+}
+
+.carousel-images {
+  width: 420px;
+  height: 600px;
+}
+
+.main_content_wrapper {
+  width: 400px;
+  @include flex-d(column, center, start);
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main-page-text {
+  //   width: 650px;
+  @include flex-d(column, center, center);
+
+  .home-container-main-text {
+    h1 {
+      @include flex-d(column, center, center);
+      @include font("Titillium Web", 700, 55px, $dark-thick-color);
+    }
+  }
+  .home-container-sub-text {
+    width: 380px;
+    text-align: justify;
+    @include font("Poppins", 300, 14px, $gray-color);
+  }
+}
+.registration-btn {
+  border: none;
+  outline: none;
+  background-color: $super-success-color;
+  color: $light-color;
+  width: 280px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.controls-wrapper {
+  width: 100%;
+}
+
+.carousel-container {
+  @include flex-d(row, space-between, center);
+  overflow: hidden;
+}
+
+.carousel-image {
+  width: 420px;
+  height: 600px;
+  margin-right: 55px;
+}
+
+.carousel-controls {
+  @include flex-d(row, space-between, center);
+  width: 120px;
+
+  .carousel-control {
+    border: none;
+    outline: none;
+    background-color: $light-gray-color;
+    color: $gray-color;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    @include flex-d(column, center, center);
+    margin-top: 25px;
+  }
+}
+.icons-cars {
+  font-size: 17px;
+  font-weight: 800;
+}

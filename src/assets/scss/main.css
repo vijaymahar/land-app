@@ -1,0 +1,527 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Titillium+Web:wght@200;300;400;700&display=swap");
+.nav-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 50px;
+}
+
+.logo-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.brand-logo {
+  font-family: "Titillium Web", sans-serif;
+  font-family: "Titillium Web";
+  font-weight: 700;
+  font-size: 30px;
+  color: #009e5c;
+}
+
+.brand-logo span {
+  color: #585858;
+}
+
+.logo_sub-text {
+  color: #585858;
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 10px;
+  color: #585858;
+  margin-top: -9px;
+}
+
+.links-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#nav-mobile {
+  list-style-type: none;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#nav-mobile li {
+  margin: auto 45px;
+}
+
+#nav-mobile .navLink {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 13px;
+  color: gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.craete-account-btn {
+  border: 1px solid #4d844d;
+  outline: none;
+  background: transparent;
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 13px;
+  color: #009e5c;
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 5px 0px #ececec;
+          box-shadow: 0px 0px 5px 0px #ececec;
+}
+
+.home-container {
+  width: 100vw;
+  height: 600px;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.home-container-left {
+  width: 50vw;
+  position: relative;
+}
+
+.home-container-left-top {
+  width: 432px;
+  height: 128px;
+  padding: 5px 10px;
+  background: white;
+  background-image: radial-gradient(#777777 1px, transparent 0);
+  background-size: 13px 13px;
+  background-position: 0 0, 7px 7px;
+}
+
+.home-container-right {
+  width: 50vw;
+}
+
+.carousel-images {
+  width: 420px;
+  height: 600px;
+}
+
+.main_content_wrapper {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.main-page-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-page-text .home-container-main-text h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Titillium Web";
+  font-weight: 700;
+  font-size: 55px;
+  color: black;
+}
+
+.main-page-text .home-container-sub-text {
+  width: 380px;
+  text-align: justify;
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 14px;
+  color: gray;
+}
+
+.registration-btn {
+  border: none;
+  outline: none;
+  background-color: #009e5c;
+  color: white;
+  width: 280px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.controls-wrapper {
+  width: 100%;
+}
+
+.carousel-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.carousel-image {
+  width: 420px;
+  height: 600px;
+  margin-right: 55px;
+}
+
+.carousel-controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 120px;
+}
+
+.carousel-controls .carousel-control {
+  border: none;
+  outline: none;
+  background-color: #e9e9e9;
+  color: gray;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 25px;
+}
+
+.icons-cars {
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.features-wrapper {
+  margin-top: 150px;
+}
+
+.features-title h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: "Titillium Web";
+  font-weight: 700;
+  font-size: 45px;
+  color: black;
+}
+
+.featuers-box-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.featuers-icons {
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 55px;
+  color: #009e5c;
+  margin-right: 20px;
+}
+
+.feature-title h3 {
+  font-family: "Titillium Web";
+  font-weight: 700;
+  font-size: 25px;
+  color: black;
+}
+
+.feature-text {
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 15px;
+  color: gray;
+  text-align: justify;
+}
+
+.banner-container {
+  background-color: #009e5c;
+}
+
+.grid-style-box {
+  width: 432px;
+  height: 128px;
+  padding: 5px 10px;
+  background-image: radial-gradient(#434343 1px, transparent 0);
+  background-size: 13px 13px;
+  background-position: 0 0, 7px 7px;
+  margin: 25px auto;
+}
+
+.banner-locker-img {
+  width: 300px;
+  height: 300px;
+}
+
+.banner-title-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner-title-box h1 {
+  width: 65%;
+  font-family: "Titillium Web";
+  font-weight: 700;
+  font-size: 55px;
+  color: white;
+  text-align: justify;
+  margin-bottom: 50px;
+}
+
+.team-group-title {
+  font-family: "Titillium Web";
+  font-weight: 700;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.team-group-members {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+}
+
+.members-image {
+  width: 200px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.member-img {
+  width: 170px;
+  height: 170px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.member-name {
+  font-family: "Titillium Web";
+  font-weight: 700;
+  font-size: 25px;
+  color: #585858;
+  margin: 15px auto;
+}
+
+.member-position {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  color: gray;
+  text-align: center;
+}
+
+.carousel-wrapper .carousel-control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carousel-wrapper i.icons-cars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 48px;
+  height: 48px;
+  background-color: #e9e9e9;
+  border-radius: 50%;
+  font-size: 16px;
+  color: gray;
+}
+/*# sourceMappingURL=main.css.map */

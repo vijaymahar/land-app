@@ -1,0 +1,55 @@
+@import "./mixins";
+
+.nav-wrapper {
+  @include flex-d(row, space-between, center);
+  padding: 10px 50px;
+}
+
+.logo-main {
+  @include flex-d(column, center, center);
+}
+
+.brand-logo {
+  font-family: "Titillium Web", sans-serif;
+  @include font("Titillium Web", 700, 30px, $super-success-color);
+  span {
+    color: $dark-color;
+  }
+}
+.logo_sub-text {
+  color: $dark-color;
+  @include font("Poppins", 300, 10px, $dark-color);
+  margin-top: -9px;
+}
+.links-wrapper {
+  @include flex-d(row, space-between, center);
+}
+
+#nav-mobile {
+  list-style-type: none;
+  margin: auto;
+  //   @include flex-d(row, space-around, center);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  li {
+    margin: auto 45px;
+  }
+  .navLink {
+    text-decoration: none;
+    @include font("Poppins", 300, 13px, $gray-color);
+    @include flex-d(row, center, center);
+  }
+}
+
+.craete-account-btn {
+  border: 1px solid $success-color;
+  outline: none;
+  //   background-color: #00c458;
+  background: transparent;
+  @include font("Poppins", 300, 13px, $super-success-color);
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px #ececec;
+}

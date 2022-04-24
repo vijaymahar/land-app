@@ -1,0 +1,130 @@
+.features-wrapper {
+  //   background-color: rgb(105, 150, 150);
+  margin-top: 150px;
+}
+
+.features-title h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  @include font("Titillium Web", 700, 45px, $dark-thick-color);
+}
+
+.featuers-box-grid {
+  @include flex-d(row, center, start);
+  //   padding: 15px;
+  //   margin: auto 10px;
+}
+
+.featuers-icons {
+  @include font("Poppins", 300, 55px, $super-success-color);
+  margin-right: 20px;
+}
+
+.feature-title h3 {
+  @include font("Titillium Web", 700, 25px, $dark-thick-color);
+}
+.feature-text {
+  @include font("Poppins", 300, 15px, $gray-color);
+  text-align: justify;
+}
+
+// BANNER CONTAIER //
+
+.banner-container {
+  background-color: $super-success-color;
+}
+
+.grid-style-box {
+  width: 432px;
+  height: 128px;
+  padding: 5px 10px;
+  background-image: radial-gradient(rgb(67, 67, 67) 1px, transparent 0);
+  background-size: 13px 13px;
+  background-position: 0 0, 7px 7px;
+  margin: 25px auto;
+}
+
+.banner-locker-img {
+  width: 300px;
+  height: 300px;
+}
+
+.banner-title-box {
+  //   width: 100%;
+  @include flex-d(row, space-between, center);
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  h1 {
+    width: 65%;
+    @include font("Titillium Web", 700, 55px, $light-color);
+    text-align: justify;
+    margin-bottom: 50px;
+  }
+}
+// BANNER CONTAIER //
+
+// MEMBER STYLES //
+
+.team-group-title {
+  @include font("Titillium Web", 700, 50px, $dark-thick-color);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.team-group-members {
+  @include flex-d(row, space-between, center);
+  //   display: flex;
+  //   justify-content: space-between;
+  //   align-items: center;
+  margin-bottom: 50px;
+}
+
+.members-image {
+  width: 200px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.member-img {
+  width: 170px;
+  height: 170px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  //   transform: scale(-20px);
+}
+
+.card-wrapper {
+  @include flex-d(column, space-between, center);
+}
+
+.member-name {
+  @include font("Titillium Web", 700, 25px, $dark-color);
+  //   text-align: center;
+  margin: 15px auto;
+}
+
+.member-position {
+  @include font("Poppins", 400, 14px, $gray-color);
+  text-align: center;
+  //   margin-bottom: 10px;
+}
+
+.carousel-wrapper {
+  .carousel-control {
+    @include flex-d(row, center, center);
+  }
+  i.icons-cars {
+    @include flex-d(row, center, center);
+    width: 48px;
+    height: 48px;
+    background-color: $light-gray-color;
+    border-radius: 50%;
+    font-size: 16px;
+    color: $gray-color;
+  }
+}
+// MEMBER STYLES //
